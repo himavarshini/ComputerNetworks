@@ -1,0 +1,27 @@
+1) Nuts and Bolts view:
+--> Internet is a computer network that interconnects hundreds of millions of
+    computing devices through out the world.
+--> Computing devices - "Hosts" or "endsystems"
+    Traditional: Desktop PCs, Linux workstations and servers that store and 
+    transmit information such as Webpages and e-mail messages.
+    Non-traditional Internet end systems: Laptops, smartphones, TVs, gaming
+    consoles, Web cams, automobiles, environmental sensing devices, picture
+    frames, home electrical and security systems
+--> End systems are connected together by a network of communication links and
+    packet switches
+--> Transmission rate - bits/second
+--> When one end system has data to send to another end system, the sending end
+system segments the data and adds header bytes to the segments
+        The resulting packages of information are known as "packets".
+--> Packets are then sent through the network to the destination end system,
+    where they are reassembled into original data.
+--> 'Packet switch' takes a packet arriving on one of its incoming communication
+links and forwards that packet on one of its outgoing communication links.
+--> Two most prominent packet switches in today's Internet
+                                      used in
+      --> routers                   network core
+      --> link-layer switches      access networks
+--> Sequence of communication links and packet switches traversed by a packet
+from the sending end system to receiving end system is known as route or path
+--> Packet-switched networks similar to transportation networks of highways,
+reads and intersections.
