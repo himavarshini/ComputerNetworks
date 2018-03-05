@@ -1,0 +1,26 @@
+1. Inspect the contents of the HTTP GET requests for the first time retrieval of the web page from your browser to the server. Do you see an “IF-MODIFIED-SINCE” line in the HTTP GET? Justify your answer.
+2.  Inspect the contents of the server response. Did the server explicitly return the contents of the file? How can you tell?
+
+3. How many reference objects are there in the base HTML file? Which frame field helps you to identify the number?
+
+4.  Now inspect the contents of the HTTP GET requests for the second retrieval of the web page from your browser to the server. Do you see “IF-MODIFIED-SINCE:” line in the HTTP GET requests? If so, what information follows the “IF-MODIFIED-SINCE:” header?
+
+5.  What is the HTTP status code and phrase returned from the server in response to this second HTTP GET? Did the server explicitly return the contents of the file?
+
+
+6. Refer the cookie.pcap capture file given to you(faculty.amrita.ac.in/lekhas/labexam). Answer the following questions
+
+a. Does this captured packets use cookie interaction? How can you identify that?
+b. Where can you find the “set-cookie” field? In HTTP request or response? Also identify the frame number.
+c. What are the contents that you can find in “set-cookie” field?
+d. Where can you find the “cookie” field? In HTTP request or response?
+e. Identify the contents in “cookie” field? Explain the relation of the contents in “set-cookie” and “cookie” fields.
+f. Can you find “cookie” field in frames captured before the frame containing “set-cookie”. Why?
+
+7. DNS
+1. How many bits long is the Transaction ID? 
+2. What values signifies whether the DNS message is a query or response?
+3. How many bytes long is the entire DNS header? Use information in the bottom status line when you select parts of the packet and the bottom panel to help you work this out.
+4. Using Wireshark, view the longest and shortest response times for DNS response messages.Filter and displays all responses that take longer than 100ms to complete:  dns.time > 0.100
+5. What is the basic difference between a DNS request and a DNS response? From your analysis elaborate on what extra fields are present and where?
+
