@@ -1,0 +1,24 @@
+1. Try to connect to any web server and answer the following by analyzing the packets captured:
+
+a.  How many HTTP GET request messages were sent by your browser?
+b. How many data-containing TCP segments were needed to carry the single HTTP response?
+c. What is the size of each of these TCP segments?
+d. When your browser’s sends the HTTP GET message for the second time, what new field is included in the HTTP GET message?
+e. What languages (if any) does your browser indicate that it can accept to the server?
+f. When the HTML file that you are retrieving was last modified at the server?
+g. How many bytes of content are being returned to your browser?
+h. Show the header that corresponds to TCP connection persistence.
+
+2. Refer the proxy.pcap capture file given to you (faculty.amrita.ac.in/lekhas/labexam). Answer the following questions
+
+a. How can you identify that captured frames use proxy server? Explain the interaction, need and significance of proxy server.
+b. What is the IP address of the original host which has the original web page?
+c. Does the proxy use authentication? Justify.
+d. Justify why http uses a connection oriented reliable service with necessary screenshots.
+
+3. Perform the following activities and take the screenshot of it.:
+a. Clear all DNS cached record entries in the local machine.
+b. Display DNS cache records in the local machine.
+c. Display Physical address of your machine.
+d. Display logical address of your machine.
+e. Display your DNS Server.
